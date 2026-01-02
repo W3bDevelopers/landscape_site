@@ -30,7 +30,7 @@ export default function AboutPage() {
           className="text-4xl sm:text-5xl md:text-7xl font-black text-emerald-900 mb-6 leading-tight"
         >
           Rooted in <br/>
-          <span className="text-emerald-500">Christchurch</span>
+          <span className="text-emerald-500">[LOCATION]</span>
         </motion.h1>
         <motion.p 
           initial={{ opacity: 0 }}
@@ -66,9 +66,9 @@ export default function AboutPage() {
         {/* Right: Text & Feature Grid */}
         <div className="space-y-10">
           <div>
-            <h3 className="text-2xl md:text-3xl font-bold text-emerald-900 mb-4">Local Experts</h3>
+            <h3 className="text-2xl md:text-3xl font-bold text-emerald-900 mb-4">[TITLE]</h3>
             <p className="text-stone-600 leading-relaxed text-base md:text-lg">
-               Our team is composed of certified digger operators, expert lawn specialists, and passionate horticulturalists who bring a wealth of knowledge to every project. 
+               [DESCRIPTION]. 
             </p>
           </div>
 
@@ -116,9 +116,9 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-stone-800 pb-12 mb-12">
           
           <div className="col-span-1 md:col-span-2">
-            <h2 className="text-2xl font-black text-white mb-6">LANDSCAPER</h2>
+            <h2 className="text-2xl font-black text-white mb-6">[COMPANY NAME]</h2>
             <p className="max-w-sm mb-6">
-              Professional landscaping services in Christchurch. transforming outdoor spaces with precision and care since 2025.
+              [COMPANY DESCRIPTION HERE]
             </p>
             <div className="flex gap-4">
                <div className="w-10 h-10 bg-stone-800 rounded-full flex items-center justify-center hover:bg-emerald-600 transition-colors cursor-pointer text-white text-xs font-bold">FB</div>
@@ -140,7 +140,7 @@ export default function AboutPage() {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-3">
                 <span className="text-emerald-500">📍</span>
-                <span> Christchurch,<br/>New Zealand</span>
+                <span> [CITY],<br/>[COUNTRY]</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-emerald-500">📞</span>
@@ -151,7 +151,7 @@ export default function AboutPage() {
         </div>
         
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-xs">
-          <p>© 2025 LANDSCAPER Landscaping. All rights reserved.</p>
+          <p>© 2025 [COMPANY NAME] All rights reserved.</p>
           <div className="flex gap-8 mt-4 md:mt-0 uppercase tracking-widest">
             <Link href="#" className="hover:text-white">Privacy Policy</Link>
             <Link href="#" className="hover:text-white">Terms</Link>

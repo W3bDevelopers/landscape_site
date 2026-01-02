@@ -3,8 +3,8 @@ import Navbar from "../app/components/navbar"; // Make sure case matches your fi
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "DSCAPER Landscaping",
-  description: "Christchurch Premium Landscaping Services",
+  title: "[COMPANY NAME]",
+  description: "[COMPANY DESCRIPTION]",
   icons: { icon: '/placeholder.png' },
 };
 

@@ -196,7 +196,7 @@ export default function ServicesPage() {
         </div>
         
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-[10px] md:text-sm uppercase tracking-widest">
-          <p>© 2025 LANDSCAPER Landscaping. All rights reserved.</p>
+          <p>© 2025 [COMPANY NAME]. All rights reserved.</p>
           <div className="flex gap-8 mt-4 md:mt-0">
             <Link href="#" className="hover:text-white">Privacy</Link>
             <Link href="#" className="hover:text-white">Terms</Link>

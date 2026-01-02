@@ -56,9 +56,9 @@ export default function ProjectsPage() {
             
             {/* Branding */}
             <div className="col-span-1 md:col-span-2">
-              <h2 className="text-2xl font-black text-white mb-6 uppercase tracking-tighter">LANDSCAPER</h2>
+              <h2 className="text-2xl font-black text-white mb-6 uppercase tracking-tighter">[COMPANY NAME]</h2>
               <p className="max-w-sm mb-6 text-sm md:text-base leading-relaxed">
-                Professional landscaping services in Christchurch. Transforming outdoor spaces with precision and care.
+                [COMPANY DESCRIPTION HERE]
               </p>
               <div className="flex gap-4">
                 <div className="w-10 h-10 bg-stone-800 rounded-full flex items-center justify-center hover:bg-emerald-600 transition-colors cursor-pointer text-white font-bold text-xs">FB</div>
@@ -93,7 +93,7 @@ export default function ProjectsPage() {
           </div>
 
           <div className="flex flex-col md:flex-row justify-between items-center text-[10px] md:text-xs font-medium uppercase tracking-widest gap-4 text-center">
-            <p>© 2026 LANDSCAPER Landscaping. All rights reserved.</p>
+            <p>© 2026 [COMPANY NAME]. All rights reserved.</p>
             <div className="flex gap-8">
               <Link href="#" className="hover:text-white">Privacy Policy</Link>
               <Link href="#" className="hover:text-white">Terms</Link>
